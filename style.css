@@ -1,97 +1,165 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+/* header */
+.div1 {
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.img1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+}
+.img2{
+  width: 100px;
+  position: relative;
+  right: 17px;
+
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.search-container {
+  margin-left: 50px;
+  position: relative;
+  right: 80px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  transform: translateY(-50%);
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  color: rgb(74, 71, 71);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+input[type="search"] {
+  /* padding: 5px 10px 15px 100px;  */
+  padding: 13px 100px 15px 105px;
+  width: 150%;
+  border: none;
+  border-radius: 25px;
+  border: solid rgb(224, 222, 222);
+  font-size: 16px;
 }
+.log{
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 80px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color:rgb(218, 214, 214) ;
+  margin-left: 20vh;
+  cursor: pointer;
+}
+.sign{
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 80px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: red;
+  cursor: pointer;
+  color: white;
+}
+
+.log:hover {
+  background-color: #777;
+}
+.para{
+  position: relative;
+  right: 30px;
+}
+p{
+  margin-left: 20px;
+  font-size:17px;
+  font-weight: bold;
+}
+
+/* main */
+.main-div-container{
+  /* border: solid; */
+  margin-top: 90px;
+  text-align: center;
+
+}
+.image1,.image2, .image3{
+  width: 50px;
+  /* border: solid; */
+  border-radius: 70px;
+  height: 50px;
+}
+.image1, .image3{
+  height: 50px;
+}
+.image2{
+  position: relative;
+  right: 20px;
+}
+.image3{
+  position: relative;
+  right: 38px;
+}
+span{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.img-container{
+  margin-top: 40px;
+  margin-left: 50px;
+}
+#same{
+  margin-top: 1%;
+}
+.same1{
+  position: relative;
+  top: 30px;
+}
+.btn1{
+  border: none;
+  margin-left: 10px;
+  margin-top: 70px;
+  border-radius: 50px;
+  width: 80px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* mainfooter */
+
+.container{
+  /* border: solid; */
+  margin-top: 150px;
+  width: 1400px;
+  margin: 20px auto;
+  columns: 5;
+  column-gap: 20px;
+}
+.container , .box{
+  width: 100%;
+  margin-bottom: 20px;
+  break-inside: avoid;
+}
+.container , .box img{
+  max-width: 100%;
+  border-radius: 15px;
+} 
+span{
+  font-size: 19px;
+}
+/* 
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+} */
