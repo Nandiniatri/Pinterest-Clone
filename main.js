@@ -1,7 +1,7 @@
 class Main{
     constructor(data){
         this.data = data;
-    }
+    } 
 
 rendermain(){
     const html = this.data.map((item) =>{

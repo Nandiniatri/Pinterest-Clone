@@ -1,7 +1,7 @@
 class Headers{
     constructor(data){
         this.data = data
-    }
+    } 
 
     renderHeaderData(){
         const tpl = this.data.map((items) =>{
@@ -15,8 +15,8 @@ class Headers{
                     <i class="fa fa-search search-icon"></i>
                     <input type="search" placeholder="Search for easy dinner, fashion, etc">
                 </div>
-                <button class="log">Log in</button>
-                <button class="sign">Sign up</button>
+                <button class="log" id="logInji">Log in</button>
+                
             </div>
             
             
@@ -37,4 +37,4 @@ const data= [
     }
 ]
 const header = new Headers(data);
-header.renderHeaderData(); 
+header.renderHeaderData();  
