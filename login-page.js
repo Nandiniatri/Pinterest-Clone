@@ -1,4 +1,4 @@
-class LogInData {
+export default class LogInData {
     constructor(data) { 
         this.data = data;
     }

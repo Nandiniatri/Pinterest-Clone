@@ -1,0 +1,55 @@
+{
+    "watchData":{
+        "slider":[
+            {
+                "id":"1",
+                "src":"https://i.pinimg.com/564x/b6/b6/50/b6b6505f974fdbcbf93b2aff1f90cfe1.jpg",
+                "text":"Discover <br>trending looks",
+                "subText":"Fashion",
+                "button":"See videos"
+            },
+            {
+                "id":"2",
+                "src":"https://artdeco.com/cdn/shop/files/700x805_Category-Teaser-GC_MOBIL_500x500.jpg?v=1686561020",
+                "text":"Try the <br> latest tips and tricks",
+                "subText":"Beauty",
+                "button":"See videos"
+            },
+            {
+                "id":"3",
+                "src":"https://hometown.gumlet.io/media/cms/icons/Kitchenware/table-accents.jpg?w=200&dpr=2.6",
+                "text":"Design your <br> ideal space",
+                "subText":"Home",
+                "button":"See videos"
+            },
+            {
+                "id":"4",
+                "src":"girl-2696947_640 (1).jpg",
+                "text":"Start a new <br> craft project",
+                "subText":"DIY",
+                "button":"See videos"
+            },
+            {
+                "id":"5",
+                "src":"https://img.freepik.com/premium-photo/glass-with-fresh-fruit-juice_1013366-695.jpg?w=740",
+                "text":"Find your inner <br> chef",
+                "subText":"Food & Drinks",
+                "button":"See videos"
+            }
+        ],
+        "button": [
+            {
+                "prevArrow": "fa fa-angle-left",
+                "nextArrow": "fa fa-angle-right"
+            }
+        ],
+        "videos": [
+            {
+                "id":"1",
+                "src":"https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4",
+                "type":"video/mp4"
+            }
+        ]
+
+    }
+}

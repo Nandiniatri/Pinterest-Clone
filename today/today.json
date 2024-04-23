@@ -1,0 +1,54 @@
+{
+    "today":{
+        "top":[
+            {
+                "subText":"February 14, 2024",
+                "text":"Stay Inspired"
+            }
+        ],
+        "middle":[
+            {
+                "img":"https://i.pinimg.com/736x/15/b5/60/15b5605aecab6f78a19dd55ba947e9b6.jpg",
+                "subText":"Gifts, romantic setups & more",
+                "text":"Your guide to planning the best V-Day"
+            },
+            {
+                "img":"https://i.pinimg.com/736x/4b/19/27/4b192743fc17974ac9610d1f6117f90e.jpg",
+                "subText":"Creative with love",
+                "text":"DIY everything for Valentine's Day"
+            },
+            {
+                "img":"https://i.pinimg.com/736x/aa/eb/df/aaebdf55b35a8e91825ba72965a4b913.jpg",
+                "subText":"What's your vibe?",
+                "text":"Coffee table styling 101"
+            },
+            {
+                "img":"https://i.pinimg.com/736x/e9/b8/7f/e9b87f4016f6f6fa880324fd3fb9cdcf.jpg",
+                "subText":"From the heart",
+                "text":"Quotes about love"
+            },
+            {
+                "img":"https://media.istockphoto.com/id/1314502474/photo/beautiful-woman-with-bright-make-up.jpg?s=612x612&w=0&k=20&c=9kLVEu52tXPd3YnSfD2ICqIRS2-avvPmbrw0GKH0hAo=",
+                "subText":"Fire looks!",
+                "text":"V-day glam ideas"
+            },
+            {
+                "img":"https://i.pinimg.com/736x/92/e5/ea/92e5eacc95e2a90ac7eba7c8f2c2175c.jpg",
+                "subText":"In your romance era",
+                "text":"Romance novel aesthetic"
+            },
+            {
+                "img":"https://i.pinimg.com/736x/4c/3b/ab/4c3bab798e55d9805026714057abdaec.jpg",
+                "subText":"Made with love",
+                "text":"Cook for your Valentine"
+            }
+        ],
+        "bottom":[
+            {
+                "icon":"fa fa-check",
+                "subText":"That's it for today!",
+                "text":"Come back tomorrow for more inspiration"
+            }
+        ]
+    }
+}
