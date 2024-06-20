@@ -33,7 +33,7 @@ export class Today{
     
             const tpls = `<div>
             <div class="topTpl">${topTpl}</div>
-            <div class="middleTpl">${middleTpl}</div>
+            <div class="middleTpl">${middleTpl}</div> 
             <div class="bottomTpl">${bottomTpl}</div>
             </div>`
     
